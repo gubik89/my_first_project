@@ -3,3 +3,6 @@ before_install:
 - cat README.md
 before_script:
 - cat README.md
+notifications:
+  email:
+    - gubik89@gmail.com
