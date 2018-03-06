@@ -1,3 +1,10 @@
-language: groovy
+language: node_js
+node_js:
+  - "8"
+before_install:
+  - sh cat README.md
+install:
+  - npm install -g composer-cli
+script: composer card list
 notifications:
   email: false
