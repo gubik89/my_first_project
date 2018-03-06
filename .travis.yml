@@ -4,5 +4,4 @@ before_install:
 before_script:
 - cat README.md
 notifications:
-  email:
-    - gubik89@gmail.com
+  email: false
