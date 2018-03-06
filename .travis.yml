@@ -1,2 +1,5 @@
+language: groovy
 before_install:
+- cat README.md
+before_script:
 - cat README.md
