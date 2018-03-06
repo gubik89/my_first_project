@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "8"
 before_install:
-  - sh cat README.md
+  - sh echo "Hello World"
 install:
   - npm install -g composer-cli
 script: composer card list
